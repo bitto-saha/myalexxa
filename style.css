@@ -1,0 +1,24 @@
+#btn{
+  
+  padding: 2rem;
+  font-size: 25px;
+  font-family: monospace;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 500px;
+  
+}
+#btn:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 720px){
+  
+  #btn{
+    
+    margin-top: 250px;
+  }
+}
